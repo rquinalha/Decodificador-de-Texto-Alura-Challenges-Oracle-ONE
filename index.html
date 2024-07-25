@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Codificador e Decodificador de Textos</title> <!-- Texto que aparece na aba do navegador -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"/> <!-- Ícone que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles/computadores.css" media="screen and (min-width: 1080px)"/> <!-- usa o .css computadores se a resolução da tela for de no minimo 1080px -->
+    <link rel="stylesheet" href="styles/tablets.css" media="screen and (min-width: 769px) and (max-width: 1079px) "/> <!-- usa o .css tablets se a resolução da tela for de no minimo 769px e máximo 1079px -->
+    <link rel="stylesheet" href="styles/smarthphone.css" media="screen and (min-width: 320px) and (max-width: 768px) "/> <!-- usa o .css smarthphone se a resolução da tela for de no minimo 320px e máximo 768px -->
+</head>
+<body>
+    <main> <!-- Elemento pai que controla os dois containers "elementos filhos" (no caso bloco-1 e bloco-2) -->
+        
+        <section class="bloco-1"> <!-- Controla todo os elementos dentro do bloco-1 -->
+            <img class="logo-alura" src="imagens/Frame 6.png" alt=""/> <!-- PNG Alura -->
+            <textarea class="digitar" id="digitar" placeholder="Digite seu Texto"></textarea> <!-- Área onde será digitado o texto -->
+            <img class="aviso" src="imagens/Frame 1.png" alt=""/> <!-- PNG com as regras (no caso o texto dizendo que precisa digitar letras minúsculas e sem acentos) -->
+            <div class="botoes">
+                <button class="botao-criptografar" onclick="criptografarEEsconder()">Criptografar</button>  <!-- Onclick (Ao clicar no botão Criptografar chama a função no JS) A class="botao-criptografar" controla os ajustes somente desse botão -->
+                <button class="botao-descriptografar" onclick="descriptografarTexto()">Descriptografar</button> <!-- Onclick (Ao clicar no botão Desciptografar chama a função no JS) A class="botao-descriptografar" controla os ajustes somente desse botão -->
+            </div>
+        </section>
+        <section class="bloco-2"> <!-- Controla todo os elementos dentro do bloco-2 -->
+            <div class="lupa-e-texto" id="lupaETexto"> <!-- Controla o PNG da pessoa com a lupa e os textos dentro do bloco-2 -->
+                <img class="passoa-lupa" src="imagens/Pessoa com lupa.png" alt=""/>
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="resultadoEBotao" class="resultado-e-botao"> <!-- Controla a caixa onde aparece o resultado do texto criptografado ou descriptografado e o botão copiar -->
+                <textarea class="resultado" id="resultado" placeholder="Nenhuma mensagem" readonly></textarea> <!-- Área onde aparece o resultado do texto criptografado ou descriptografado. O "readonly" é para deixar a caixa de texto somente para leituta e a cópia ser feita pelo botão "Copiar" -->
+                <button onclick="copiarEApagarTexto()" class="botao-copiar">Copiar</button> <!-- Botão copiar -->
+            </div>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        2024 - Desenvolvido por <a href="#" target="_blank"><img src="imagens/github.png" alt=""/> <strong>Rafael Quinalha</strong></a> com suporte da Alura.
+    </footer> 
+</body>
+    <script src="app.js"></script>
+</html>

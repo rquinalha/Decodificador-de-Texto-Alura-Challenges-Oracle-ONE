@@ -7,6 +7,7 @@
 <p align="justify">
  Esse é um desafio para colocar em prática os meus conhecimentos adquiridos na tilha de desenvolvimento ONE.</p>
 <p>Foram aplicados conhecimentos básicos em HTML5, CSS3 e JavaScript.</p>
+<p>Esse é o meu primeiro aplicativo, não possuo experiência em programação e construção de sites. Foi muito desafiador e fico feliz de ter conseguido completar. 💪</p>
 
 <div align="center">
 
@@ -36,6 +37,10 @@ Agora é só clicar no botão `Descriptografar` para ver o texto descriptografad
 ## Ferramentas Utilizadas
 
 <a href="https://www.w3.org/TR/2011/WD-html5-20110405/index.html" target="_blank"> <img src="imagens_README/HTML5.png" width="40" height="40"/></a> <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"> <img src="imagens_README/CSS3.png"  width="45" height="45"/></a> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img src="imagens_README/JS.png" alt="firebase" width="45" height="45"/></a> <a href="https://code.visualstudio.com/" target="_blank"><img src="imagens_README/vsc.svg" alt="firebase" width="45" height="45"/></a>
+
+## Download
+
+Para baixar o aplicativo acesse o <a href="https://decodificador-de-texto-alura-challenges-oracle-one.vercel.app/" target="_blank">link</a>.
 
 ## Desenvolvedor
 

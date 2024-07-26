@@ -40,7 +40,7 @@ Agora é só clicar no botão `Descriptografar` para ver o texto descriptografad
 
 ## Download
 
-Para baixar o aplicativo acesse o <a href="https://decodificador-de-texto-alura-challenges-oracle-one.vercel.app/" target="_blank">link</a>.
+Para baixar o aplicativo acesse o <a href="https://decodificador-de-texto-alura-challenges-oracle-one.vercel.app/" target="_blank"><strong>link</strong></a>.
 
 ## Desenvolvedor
 

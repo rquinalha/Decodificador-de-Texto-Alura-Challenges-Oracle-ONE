@@ -1,3 +1,10 @@
+
+document.querySelector("#digitar").addEventListener('input', function (event) {
+  let textarea = event.target;
+  // Remove caracteres não permitidos (letras maiúsculas e caracteres especiais)
+  textarea.value = textarea.value.replace(/[^a-z0-9\s]/g, '');
+});
+
 function criptografarEEsconder() {
   
   document.querySelector("#menino-lupa").style.display = "none"; //IMG do menino com a lupa será ocultado

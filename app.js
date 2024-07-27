@@ -10,7 +10,7 @@ function criptografarEEsconder() {
   document.querySelector("#menino-lupa").style.display = "none"; //IMG do menino com a lupa será ocultado
   document.querySelector("#textos").style.display = "none"; // os textos dentro da caixa-vazia serão ocultados
   document.querySelector("#resultado").style.display = "block"; //o campo resultado que estava oculto será mostrado
-  document.querySelector("#botao-copiar").style.display = "block"; //o botão COPIAR que estava oculto será resultado será mostrado
+  document.querySelector("#botao-copiar").style.display = "block"; //o botão COPIAR que estava oculto será mostrado
 
   let textoDigitado = document.querySelector("#digitar").value; // pega os valores dos textos digitados no id="digitar"
   let textoCriptografado = textoDigitado // aqui diz que os textos digitados no id="digitar" serão criptografados e as vogais serão substituidas pelas regras abaixo

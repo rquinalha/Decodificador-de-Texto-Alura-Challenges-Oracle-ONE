@@ -22,6 +22,8 @@ Use o botão `Copiar` para copiar o texto criptografado e cole na área onde voc
 
 Agora é só clicar no botão `Descriptografar` para ver o texto descriptografado.
 
+O aplicativo funciona em computadores, TVs, dispositivos móveis e tablets.
+
 
 
 ## Aplicativo em funcionamento
@@ -40,7 +42,7 @@ Agora é só clicar no botão `Descriptografar` para ver o texto descriptografad
 
 ## Download
 
-Para acessar o aplicativo acesse o <a href="https://decodificador-de-texto-alura-challenges-oracle-one.vercel.app/" target="_blank"><strong>link</strong></a>.
+Ficou curioso(a)? Teste com seus amigos(as) a mande mensagens secretas para eles(as). Acesse o aplicativo através do <a href="https://decodificador-de-texto-alura-challenges-oracle-one.vercel.app/" target="_blank"><strong>link</strong></a>.
 
 ## Desenvolvedor
 

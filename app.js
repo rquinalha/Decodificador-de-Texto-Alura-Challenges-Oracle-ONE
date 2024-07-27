@@ -1,7 +1,9 @@
 function criptografarEEsconder() {
   
-  document.querySelector("#lupaETexto").style.display = "none"; //os elementos da DIV com id="lupaETexto" serão ocultados (os elementos são: (o menino com a lupa e as mensagens do "h2" e "p")
-  document.querySelector("#resultadoEBotao").style.display = "block"; //os elementos do id="resultadoEBotao" serão mostrados dentro do bloco-2 (isso inclui o resultado da encriptação e o botão "Copiar")
+  document.querySelector("#menino-lupa").style.display = "none"; //IMG do menino com a lupa será ocultado
+  document.querySelector("#textos").style.display = "none"; // os textos dentro da caixa-vazia serão ocultados
+  document.querySelector("#resultado").style.display = "block"; //o campo resultado que estava oculto será mostrado
+  document.querySelector("#botao-copiar").style.display = "block"; //o botão COPIAR que estava oculto será resultado será mostrado
 
   let textoDigitado = document.querySelector("#digitar").value; // pega os valores dos textos digitados no id="digitar"
   let textoCriptografado = textoDigitado // aqui diz que os textos digitados no id="digitar" serão criptografados e as vogais serão substituidas pelas regras abaixo
@@ -35,4 +37,28 @@ function descriptografarTexto() {
   .replace(/ufat/g, "u");
   
   document.querySelector("#resultado").value = textoDescriptografado; //exibe o texto descriptografado em <textarea> id="resultado"
+}
+
+// função para tablets
+function reordenar() {
+  if (window.innerWidth >= 1023) { // se a resolução da tela for menor ou igual a 1023px, não faz nada e retorna a função
+    return; 
+  } else {
+  document.querySelector("footer").style.gridRow = "8"; // Coloca o footer na linha 7 do grid
+  document.querySelector("footer").style.alignSelf = "start"; // Alinha o footer no topo
+  document.querySelector("#caixa-vazia").style.height = "343px"; // aumenta o tamanho da caixa
+  document.querySelector("#caixa-vazia").style.alignSelf = "start"; // Alinha a caixa no topo
+  }
+}
+
+// função para celulares
+function reordenarCelular() {
+  if (window.innerWidth >= 767) { // se a resolução da tela for menor ou igual a 767px, não faz nada e retorna a função
+    return; 
+  } else {
+  document.querySelector("footer").style.gridRow = "9"; // Coloca o footer na linha 7 do grid
+  document.querySelector("footer").style.alignSelf = "center"; // Alinha o footer no topo
+  document.querySelector("#caixa-vazia").style.height = "343px"; // aumenta o tamanho da caixa
+  document.querySelector("#caixa-vazia").style.alignSelf = "start"; 
+  }
 }

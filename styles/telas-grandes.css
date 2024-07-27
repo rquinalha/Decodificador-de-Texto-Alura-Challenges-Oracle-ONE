@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --cor-de-fundo: #f3f5fc;
+  --cor-botao: #d8dfe8;
+  --cor-botao-hover: #0a3871;
+  --cor-resultado-texto: #495057;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  place-content: center;
+}
+
+.conteiner {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin: auto;
+  grid-template-columns: 60% 37%;
+  grid-template-rows: repeat(4, 218px);
+  background-color: transparent;
+  align-items: center;
+  
+
+}
+
+
+.logo-alura {
+  margin: 10px 10px 10px 0px;
+  align-self: self-start;
+  justify-self: flex-start;
+}
+
+.digitar {
+  grid-column: 1;
+  grid-row: 2;
+  width: 680px;
+  height: 288px;
+  margin-bottom: 75px;
+  background-color: transparent;
+  color: var(--cor-botao-hover);
+  font-size: 2em;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.digitar::placeholder {
+  color: var(--cor-botao-hover);
+  font-size: 1em;
+  font-weight: 400;
+  text-align: left;
+  padding: 0px 10px 0px 0px;
+}
+
+.aviso {
+  grid-column: 1;
+  grid-row: 4;
+  place-self: center start;
+  margin: 0px 0px 90px 30px;
+}
+
+.botoes {
+  margin-top: 32px;
+  place-self: center;
+  grid-column: 1;
+  grid-row: 4;
+} 
+
+
+.botao-criptografar {
+  border-radius: 24px;
+  margin-right: 14px;
+  width: 328px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.botao-descriptografar {
+  border-radius: 24px;
+  width: 328px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.botao-criptografar:hover, .botao-descriptografar:hover { 
+  background-color: var(--cor-botao-hover);
+  color: white;
+}
+
+.caixa-vazia {
+  width: 400px;
+  height: 816px;
+  border-radius: 34px;
+  grid-column: 2;
+  grid-row: 1 / 5;
+  align-self: center;
+  justify-self: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
+  background-color: white;
+}
+
+.menino-lupa {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: center;
+}
+
+.textos {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+  place-self: center center;
+  margin-top: 70px;
+}
+
+.textos h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+}
+
+.textos p {
+  line-height: 24px;
+  color: #495057;
+  margin-top: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.quebra-linha {
+  display: block;
+}
+
+
+
+.resultado {
+  grid-column: 2;
+  grid-row: 1 / 5;
+  width: 336px;
+  height: 653px;
+  align-self: center;
+  margin-top: -105px;
+  display: none;
+  font-size: 1.5em;
+  color: var(--cor-resultado-texto);
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.botao-copiar {
+  border-radius: 24px;
+  width: 336px;
+  padding: 24px;
+  line-height: 19.36px;
+  grid-column: 2;
+  grid-row: 4;
+  place-self: center;
+  margin-top: 32px;
+  display: none;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  color: var(--cor-botao-hover);
+  background-color: transparent;
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.botao-copiar:hover { 
+  background-color: var(--cor-botao-hover);
+  color: white;
+}
+
+footer {
+  grid-column: 1 / 3;
+  grid-row: 5;
+  place-self: end;
+  background-color: #0A3871;
+  color: white;
+  border-radius: 24px;
+  text-align: center;
+  padding: 12px 0px 10px 0px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #a8a9af;
+}
+
+
+footer img {
+  transform: translate(16%, 14%);
+  margin: -10px 0 0 0;
+}

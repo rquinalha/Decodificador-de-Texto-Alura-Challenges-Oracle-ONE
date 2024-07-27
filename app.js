@@ -44,7 +44,7 @@ function reordenar() {
   if (window.innerWidth >= 1023) { // se a resolução da tela for menor ou igual a 1023px, não faz nada e retorna a função
     return; 
   } else {
-  document.querySelector("footer").style.gridRow = "8"; // Coloca o footer na linha 7 do grid
+  document.querySelector("footer").style.gridRow = "8"; // Coloca o footer na linha 8 do grid
   document.querySelector("footer").style.alignSelf = "start"; // Alinha o footer no topo
   document.querySelector("#caixa-vazia").style.height = "343px"; // aumenta o tamanho da caixa
   document.querySelector("#caixa-vazia").style.alignSelf = "start"; // Alinha a caixa no topo
@@ -56,7 +56,7 @@ function reordenarCelular() {
   if (window.innerWidth >= 767) { // se a resolução da tela for menor ou igual a 767px, não faz nada e retorna a função
     return; 
   } else {
-  document.querySelector("footer").style.gridRow = "9"; // Coloca o footer na linha 7 do grid
+  document.querySelector("footer").style.gridRow = "9"; // Coloca o footer na linha 9 do grid
   document.querySelector("footer").style.alignSelf = "center"; // Alinha o footer no topo
   document.querySelector("#caixa-vazia").style.height = "343px"; // aumenta o tamanho da caixa
   document.querySelector("#caixa-vazia").style.alignSelf = "start"; 

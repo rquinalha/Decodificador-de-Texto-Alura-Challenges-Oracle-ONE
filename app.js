@@ -41,7 +41,7 @@ function descriptografarTexto() {
 
 // função para tablets
 function reordenar() {
-  if (window.innerWidth >= 1023) { // se a resolução da tela for menor ou igual a 1023px, não faz nada e retorna a função
+  if (window.innerWidth >= 1023) { // se a resolução da tela for maior ou igual a 1023px, não faz nada e retorna a função
     return; 
   } else {
   document.querySelector("footer").style.gridRow = "8"; // Coloca o footer na linha 8 do grid
@@ -53,7 +53,7 @@ function reordenar() {
 
 // função para celulares
 function reordenarCelular() {
-  if (window.innerWidth >= 767) { // se a resolução da tela for menor ou igual a 767px, não faz nada e retorna a função
+  if (window.innerWidth >= 767) { // se a resolução da tela for maior ou igual a 767px, não faz nada e retorna a função
     return; 
   } else {
   document.querySelector("footer").style.gridRow = "9"; // Coloca o footer na linha 9 do grid

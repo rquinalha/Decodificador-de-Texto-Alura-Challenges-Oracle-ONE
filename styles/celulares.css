@@ -1,166 +1,156 @@
 body {
-    background-color: var(--cor-de-fundo);
-  }
-  
-  
-  .conteiner {
-    display: grid;
-    justify-items: center;
-    width: 375px;
-    height: 933px;
-    margin: auto;
-    grid-template-columns: none;
-    grid-template-rows: repeat(9, 150px);
-    background-color: transparent;
-    justify-content: center;
-    align-items: start;
-  }
-  
-  .logo-alura {
-    margin: 10px 0px 0px -35px;
-    align-self: self-start;
-    justify-self: flex-start;
-  }
-  
-  
-  .digitar {
-    grid-column: 1;
-    grid-row: 2;
-    width: 343px;
-    height: 400px;
-    
-    margin: -50px 0 0 0;
-  
-  }
-  
-  
-  .aviso {
-    grid-row: 5;
-    place-self: start start;
-    margin: -30px 0px 0px 0px;
-  }
-  
-  .botoes {
-    grid-row: 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  } 
-  
-  
-  .botao-criptografar {
-    border-radius: 24px;
-    width: 343px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    color: var(--cor-botao-hover);
-    background-color: var(--cor-botao);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-    margin: 0 auto 14px auto;
-  }
-  
-  .botao-descriptografar {
-    border-radius: 24px;
-    width: 343px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    color: var(--cor-botao-hover);
-    background-color: var(--cor-botao);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-  }
-  
-  
-  .caixa-vazia {
-    width: 343px;
-    height: 133px;
-    border-radius: 34px;
-    grid-column: 1;
-    grid-row: 6;
-    place-self: center center;
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
-    background-color: white;
-    margin: 70px 0 0 0;
-    
-  }
-  
-  .menino-lupa {
-    display: none;
-  }
-  
-  .textos {
-    grid-column: 1;
-    grid-row: 6;
-    text-align: center;
-    margin: 70px 0 0 0;
-    
-  
-  }
-  
-  .textos h2 {
-    font-size: 24px;
-    line-height: 28.8px;
-    font-weight: 700;
-    padding-top: 10px;
-  }
-  
-  .textos p {
-    line-height: 24px;
-    color: #495057;
-    margin-top: 0px;
-    line-height: 24px;
-    font-weight: 400;
-  }
-  
-  .quebra-linha {
-    display: block;
-  }
-  
-  .resultado {
-    width: 279px;
-    height: 200px;
-    grid-column: 1;
-    grid-row: 7;
-    justify-self: center;
-    align-self: center;
-    font-size: 1.5em;
-    color: var(--cor-resultado-texto);
-    text-align: left;
-    margin-top: -30px;
-  }
-  
-  .botao-copiar {
-    border-radius: 24px;
-    width: 279px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    grid-column: 1;
-    grid-row: 8;
-    place-self: center;
-    margin-top: -30px;
-    color: var(--cor-botao-hover);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-  }
-  
-  footer {
-    grid-column: 1;
-    grid-row: 7;
-    place-self: end;
-    background-color: #0A3871;
-    color: white;
-    border-radius: 24px;
-    text-align: center;
-    padding: 10px;
-    width: 343px;
-  }
-  
+  background-color: var(--cor-de-fundo);
+}
+
+.conteiner {
+  display: grid;
+  justify-items: center;
+  width: 375px;
+  height: 933px;
+  margin: auto;
+  grid-template-columns: none;
+  grid-template-rows: repeat(9, 150px);
+  background-color: transparent;
+  justify-content: center;
+  align-items: start;
+}
+
+.logo-alura {
+  margin: 10px 0px 0px -35px;
+  align-self: self-start;
+  justify-self: flex-start;
+}
+
+.digitar {
+  grid-column: 1;
+  grid-row: 2;
+  width: 343px;
+  height: 400px;
+
+  margin: -50px 0 0 0;
+}
+
+.aviso {
+  grid-row: 5;
+  place-self: start start;
+  margin: -30px 0px 0px 0px;
+}
+
+.botoes {
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.botao-criptografar {
+  border-radius: 24px;
+  width: 343px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+  margin: 0 auto 14px auto;
+}
+
+.botao-descriptografar {
+  border-radius: 24px;
+  width: 343px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.caixa-vazia {
+  width: 343px;
+  height: 133px;
+  border-radius: 34px;
+  grid-column: 1;
+  grid-row: 6;
+  place-self: center center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
+  background-color: white;
+  margin: 70px 0 0 0;
+}
+
+.menino-lupa {
+  display: none;
+}
+
+.textos {
+  grid-column: 1;
+  grid-row: 6;
+  text-align: center;
+  margin: 70px 0 0 0;
+}
+
+.textos h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.textos p {
+  line-height: 24px;
+  color: #495057;
+  margin-top: 0px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.quebra-linha {
+  display: block;
+}
+
+.resultado {
+  width: 279px;
+  height: 200px;
+  grid-column: 1;
+  grid-row: 7;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.5em;
+  color: var(--cor-resultado-texto);
+  text-align: left;
+  margin-top: -30px;
+}
+
+.botao-copiar {
+  border-radius: 24px;
+  width: 279px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 8;
+  place-self: center;
+  margin-top: -30px;
+  color: var(--cor-botao-hover);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+footer {
+  grid-column: 1;
+  grid-row: 7;
+  place-self: end;
+  background-color: #0a3871;
+  color: white;
+  border-radius: 24px;
+  text-align: center;
+  padding: 10px;
+  width: 343px;
+}

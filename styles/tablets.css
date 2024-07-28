@@ -1,153 +1,146 @@
 body {
-    background-color: var(--cor-de-fundo);
-  
-  }
-  
-  .conteiner {
-    display: grid;
-    justify-items: center;
-    width: 768px;
-    margin: auto;
-    grid-template-columns: none;
-    grid-template-rows: repeat(7, 197px);
-    background-color: transparent;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    
-  }
-  
-  .logo-alura {
-    margin: 10px 0px 10px -40px;
-  }
-  
-  
-  .digitar {
-    grid-row: 2;
-  }
-  
-  .aviso {
-    grid-row: 4;
-    place-self: start start;
-    margin: 0px 0px 80px 0px;
-  }
-  
-  .botoes {
-    place-self: start center;
-    grid-row: 4;
-  } 
-  
-  
-  .botao-criptografar {
-    border-radius: 24px;
-    margin-right: 14px;
-    width: 332px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    color: var(--cor-botao-hover);
-    background-color: var(--cor-botao);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-  }
-  
-  .botao-descriptografar {
-    border-radius: 24px;
-    width: 332px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--cor-botao-hover);
-    background-color: var(--cor-botao);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-  }
-  
-  
-  .caixa-vazia {
-    width: 688px;
-    height: 133px;
-    border-radius: 34px;
-    grid-column: 1;
-    grid-row: 5;
-    place-self: center center;
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
-    background-color: white;
-  }
-  
-  .menino-lupa {
-    display: none;
-  }
-  
-  .textos {
-    grid-column: 1;
-    grid-row: 5;
-    text-align: center;
-    margin-top: 0px;
-  }
-  
-  .textos h2 {
-    font-size: 24px;
-    line-height: 28.8px;
-    font-weight: 700;
-  }
-  
-  .textos p {
-    line-height: 24px;
-    color: #495057;
-    margin-top: 16px;
-    line-height: 24px;
-    font-weight: 400;
-  }
-  
-  .quebra-linha {
-    display: inline;
-  }
-  
-  .resultado {
-    width: 624px;
-    height: 180px;
-    grid-column: 1;
-    grid-row: 6;
-    justify-self: center;
-    align-self: flex-start;
-    font-size: 1.5em;
-    color: var(--cor-resultado-texto);
-    text-align: left;
-    margin: -156px 0px 0px 0;
-  }
-  
-  .botao-copiar {
-    border-radius: 24px;
-    width: 624px;
-    padding: 24px;
-    font-size: 1em;
-    line-height: 19.36px;
-    font-weight: 400;
-    grid-column: 1;
-    grid-row: 6;
-    place-self: center;
-    margin-top: -24px;
-    display: none;
-    color: var(--cor-botao-hover);
-    border: 1px solid var(--cor-botao-hover);
-    cursor: pointer;
-  }
-  
-  footer {
-    grid-column: 1;
-    grid-row: 8;
-    place-self: start;
-    background-color: #0A3871;
-    color: white;
-    border-radius: 24px;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    
-  }
-  
+  background-color: var(--cor-de-fundo);
+}
+
+.conteiner {
+  display: grid;
+  justify-items: center;
+  width: 768px;
+  margin: auto;
+  grid-template-columns: none;
+  grid-template-rows: repeat(7, 197px);
+  background-color: transparent;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-alura {
+  margin: 10px 0px 10px -40px;
+}
+
+.digitar {
+  grid-row: 2;
+}
+
+.aviso {
+  grid-row: 4;
+  place-self: start start;
+  margin: 0px 0px 80px 0px;
+}
+
+.botoes {
+  place-self: start center;
+  grid-row: 4;
+}
+
+.botao-criptografar {
+  border-radius: 24px;
+  margin-right: 14px;
+  width: 332px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.botao-descriptografar {
+  border-radius: 24px;
+  width: 332px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--cor-botao-hover);
+  background-color: var(--cor-botao);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+.caixa-vazia {
+  width: 688px;
+  height: 133px;
+  border-radius: 34px;
+  grid-column: 1;
+  grid-row: 5;
+  place-self: center center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
+  background-color: white;
+}
+
+.menino-lupa {
+  display: none;
+}
+
+.textos {
+  grid-column: 1;
+  grid-row: 5;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.textos h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 700;
+}
+
+.textos p {
+  line-height: 24px;
+  color: #495057;
+  margin-top: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.quebra-linha {
+  display: inline;
+}
+
+.resultado {
+  width: 624px;
+  height: 180px;
+  grid-column: 1;
+  grid-row: 6;
+  justify-self: center;
+  align-self: flex-start;
+  font-size: 1.5em;
+  color: var(--cor-resultado-texto);
+  text-align: left;
+  margin: -156px 0px 0px 0;
+}
+
+.botao-copiar {
+  border-radius: 24px;
+  width: 624px;
+  padding: 24px;
+  font-size: 1em;
+  line-height: 19.36px;
+  font-weight: 400;
+  grid-column: 1;
+  grid-row: 6;
+  place-self: center;
+  margin-top: -24px;
+  display: none;
+  color: var(--cor-botao-hover);
+  border: 1px solid var(--cor-botao-hover);
+  cursor: pointer;
+}
+
+footer {
+  grid-column: 1;
+  grid-row: 8;
+  place-self: start;
+  background-color: #0a3871;
+  color: white;
+  border-radius: 24px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}

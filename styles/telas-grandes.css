@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
   padding: 0px;
@@ -7,7 +6,6 @@
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
-
 
 :root {
   --cor-de-fundo: #f3f5fc;
@@ -32,7 +30,6 @@ body {
   background-color: transparent;
   align-items: center;
 }
-
 
 .logo-alura {
   margin: 10px 10px 10px 0px;
@@ -81,8 +78,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
-
+}
 
 .botao-criptografar {
   border-radius: 24px;
@@ -112,7 +108,8 @@ body {
   cursor: pointer;
 }
 
-.botao-criptografar:hover, .botao-descriptografar:hover { 
+.botao-criptografar:hover,
+.botao-descriptografar:hover {
   background-color: var(--cor-botao-hover);
   color: white;
 }
@@ -162,8 +159,6 @@ body {
   display: block;
 }
 
-
-
 .resultado {
   grid-column: 2;
   grid-row: 1 / 5;
@@ -201,7 +196,7 @@ body {
   cursor: pointer;
 }
 
-.botao-copiar:hover { 
+.botao-copiar:hover {
   background-color: var(--cor-botao-hover);
   color: white;
 }
@@ -210,7 +205,7 @@ footer {
   grid-column: 1 / 3;
   grid-row: 5;
   place-self: end;
-  background-color: #0A3871;
+  background-color: #0a3871;
   color: white;
   border-radius: 24px;
   text-align: center;
@@ -226,7 +221,6 @@ footer a {
 footer a:hover {
   color: #a8a9af;
 }
-
 
 footer img {
   transform: translate(16%, 14%);

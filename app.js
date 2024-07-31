@@ -1,8 +1,10 @@
-document.querySelector("#digitar").addEventListener("input", function (event) {
-  let textarea = event.target;
-  // Remove caracteres não permitidos (letras maiúsculas, números e caracteres especiais)
-  textarea.value = textarea.value.replace(/[^a-z\s]/g, "");
-});
+document
+  .querySelector("#digitar")
+  .addEventListener("input", function (bloqueioDigitar) {
+    let areaDigitar = bloqueioDigitar.target;
+    // Não permite digitar letras maiúsculas, números e caracteres especiais
+    areaDigitar.value = areaDigitar.value.replace(/[^a-z\s]/g, "");
+  });
 
 function criptografarEEsconder() {
   document.querySelector("#menino-lupa").style.display = "none"; //IMG do menino com a lupa será ocultado
@@ -69,3 +71,10 @@ function reordenarCelular() {
     document.querySelector("#caixa-vazia").style.alignSelf = "start";
   }
 }
+
+//Executa o alerta ao carregar a página quando estiver em celulares
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.innerWidth <= 767) {
+    alert("Para melhor visualização, use o tema claro em seu navegador!");
+  }
+});

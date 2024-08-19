@@ -1,8 +1,6 @@
+# <h1>Codificador e Decodificador de Textos Simples</h1>
 
-
-
-# <h1>Codificado e Decodificador de Textos Simples</h1>
-<h2>Descrição do projeto</h2> 
+<h2>Descrição do projeto</h2>
 
 <p align="justify">
  Esse é um desafio para colocar em prática os meus conhecimentos adquiridos na tilha de desenvolvimento ONE.</p>
@@ -12,6 +10,7 @@
 <div align="center">
 
 ![Decodificador](imagens_README/app_print.png)
+
 </div>
 
 ## Funcionalidades
@@ -23,8 +22,6 @@ Use o botão `Copiar` para copiar o texto criptografado e cole na área onde voc
 Agora é só clicar no botão `Descriptografar` para ver o texto descriptografado.
 
 O aplicativo funciona em computadores, TVs, dispositivos móveis e tablets.
-
-
 
 ## Aplicativo em funcionamento
 
